@@ -1,0 +1,12 @@
+# Python bytecode & caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS metadata
+.DS_Store
+
+# Generated intermediate audio & preview renders
+# (scarborough_fair_aero.html and previews/ stay tracked for instant playback)
+build/
