@@ -2,6 +2,8 @@
 
 **Pure-code physical-modeling singing voice in Python stdlib + hand-drawn ink, charcoal & watercolor Canvas 2D animated film — zero external libraries, zero TTS, zero audio samples, zero SVGs, zero assets.**
 
+**[Watch & Listen Live on GitHub Pages →](https://chetaslua.github.io/aero-scarborough-fair/)** *(click the cover sheet to start audio)*
+
 ![Aero Sings Scarborough Fair — Cover](previews/cover.png)
 
 Every sound wave in this 108.8-second performance (singing voice, fingerpicked acoustic guitar, bowed cello, and wooden-hall reverb) is synthesized from scratch using only the Python 3 standard library (`array`, `math`, `random`, `wave`). Every frame of the accompanying 5-act animated short film (cold-press cotton paper, wet-on-wet watercolor washes, vine charcoal, dip-pen contour hatching, and botanical ink drawings) is painted procedurally in real time on HTML5 Canvas 2D with zero external scripts, fonts, or image files.
@@ -20,13 +22,13 @@ Every sound wave in this 108.8-second performance (singing voice, fingerpicked a
 
 ---
 
-## Play Offline Instantly
+## Watch Live or Play Offline
 
-No server, build step, or internet connection is required:
-
-1. Download or clone this repository.
-2. Open [`scarborough_fair_aero.html`](./scarborough_fair_aero.html) directly in any modern browser (Chrome, Safari, Firefox, Edge).
-3. Click anywhere on the cover sheet to start the performance.
+- **Live Demo (GitHub Pages):** Open [https://chetaslua.github.io/aero-scarborough-fair/](https://chetaslua.github.io/aero-scarborough-fair/) and click the cover sheet to start playback.
+- **Offline Single-File Player:** No server, build step, or internet connection is required:
+  1. Download or clone this repository.
+  2. Open [`scarborough_fair_aero.html`](./scarborough_fair_aero.html) directly in any modern browser (Chrome, Safari, Firefox, Edge).
+  3. Click anywhere on the cover sheet to start the performance.
 
 `scarborough_fair_aero.html` (~13 MB) is a completely self-contained single-file deliverable with the 22,050 Hz 16-bit stereo WAV audio (`base64`), 30 fps lyric/audio telemetry timeline, and full Canvas 2D rendering engine embedded inline — zero external network requests.
 
